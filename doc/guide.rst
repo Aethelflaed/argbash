@@ -502,6 +502,7 @@ Plus, there are convenience macros:
   * The list of long options is a list of first arguments to functions such as ``ARG_POSITIONAL_SINGLE``, ``ARG_OPTIONAL_SINGLE``, ``ARG_OPTIONAL_BOOLEAN``, etc.
     Therefore, don't include leading double dash to any of the list items that represent blacklisted optional arguments.
     To blacklist the double dash positional argument feature, add the ``--`` symbol to the list.
+    To blacklist leftovers arguments allowed by ``ARG_LEFTOVERS``, add ``leftovers`` to the list.
 
   * Flags is a string that may contain some characters.
     If a flag is set, a class of arguments is excluded from the file.
